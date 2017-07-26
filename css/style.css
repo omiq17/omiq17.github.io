@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Federo|Redressed);
 body {
 	font-family: 'Federo', sans-serif;
+	overflow-x: hidden;
 }
 #home, #about, #portfolio {
 	padding-top: 13vh;
@@ -84,7 +85,7 @@ body {
 	font-size: 57px;
 }
 #home { 
-	background: url(https://dl.dropboxusercontent.com/s/h5phguw47v63pwp/desk.jpg?dl=0) center center;
+	background: url(https://res.cloudinary.com/omiq17/image/upload/q_auto/v1501085935/portfolio/desk_viadd9.jpg) center center;
 	background-attachment: fixed, scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -131,7 +132,7 @@ body {
 }
 .portfolio figure{
 	overflow: hidden;
-	margin: 11%;
+	margin: 11% 13%;
 	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 	transition: box-shadow .3s ease-in-out;
 
