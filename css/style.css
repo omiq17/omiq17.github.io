@@ -111,6 +111,9 @@ body {
 .about {
 	padding: 0% 15%;
 }
+.about p, .about h2 {
+	font-family: 'Lato', sans-serif;
+}
 .about h1 {
 	margin: 5%;
 }
