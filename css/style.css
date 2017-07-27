@@ -118,6 +118,7 @@ body {
 	font-size: 19px;
 }
 .about img {
+	border-radius: 55px 5px 55px 25px;
 	display: inline-block;
 	height: 33vh;
 }
@@ -132,7 +133,7 @@ body {
 }
 .portfolio figure{
 	overflow: hidden;
-	margin: 11% 13%;
+	padding: 5% 13%;
 	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 	transition: box-shadow .3s ease-in-out;
 
@@ -176,9 +177,6 @@ body {
 }
 
 @media (min-width: 768px) {
-    #about, #home, #portfolio {
-	    padding-top: 9vh;
-    }
 	.about {
 		padding: 0% 25%;
 	}
