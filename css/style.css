@@ -67,7 +67,7 @@ body {
   padding-top: 15vh;
 }
 #front h1 {
-	font-size: 29px;
+	font-size: 29.7px;
 	display:inline-block;
     -webkit-transform:scale(1.9,1.7); /* Safari and Chrome */
     -moz-transform:scale(1.9,1.7); /* Firefox */
@@ -77,12 +77,12 @@ body {
 	line-height: 1.7;
 }
 #front p {
-	font-size: 21.25px;
+	font-size: 21.19px;
 	margin-bottom: 21px;
 }
 @import url(https://fonts.googleapis.com/css?family=Federo|Redressed);
 #front span {
-	font-size: 57px;
+	font-size: 60.1px;
 }
 #home { 
 	background: url(https://res.cloudinary.com/omiq17/image/upload/q_auto/v1501085935/portfolio/desk_viadd9.jpg) center center;
