@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Federo|Redressed);
 body {
 	font-family: 'Federo', sans-serif;
 	overflow-x: hidden;
@@ -78,9 +77,10 @@ body {
 	line-height: 1.7;
 }
 #front p {
-	font-size: 21px;
+	font-size: 21.25px;
 	margin-bottom: 21px;
 }
+@import url(https://fonts.googleapis.com/css?family=Federo|Redressed);
 #front span {
 	font-size: 57px;
 }
@@ -118,7 +118,7 @@ body {
 	margin: 5%;
 }
 .about p {
-	font-size: 19px;
+	font-size: 19.9px;
 }
 .about img {
 	border-radius: 55px 5px 55px 25px;
