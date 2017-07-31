@@ -16,5 +16,6 @@ $(document).ready(function(){
 
     var headerHeight = $(".s").outerHeight(true);
     $(" #about, #home, #portfolio").css("padding-top", headerHeight )
+    $(" #about, #portfolio").css("padding-bottom", headerHeight )
 });
        
