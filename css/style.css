@@ -2,9 +2,6 @@ body {
 	font-family: 'Federo', sans-serif;
 	overflow-x: hidden;
 }
-#home, #about, #portfolio {
-	padding-top: 13vh;
-}
 
 /*
 	header
