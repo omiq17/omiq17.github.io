@@ -118,9 +118,9 @@ body {
 	font-size: 19.9px;
 }
 .about img {
-	border-radius: 55px 5px 55px 25px;
-	display: inline-block;
-	height: 30vh;
+    	border-radius: 35px 5px 35px 15px;
+    	display: inline-block;
+    	height: 25vh;
 }
 /*
        Portfolio
