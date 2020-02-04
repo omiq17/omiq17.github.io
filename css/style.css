@@ -161,15 +161,17 @@ body {
 /** 
 * 3d transform 
 */
-#box {
-	background: white;
+.showcase {
+	padding: 5%;
+	display: flex;
+	justify-content: space-between;
 }
+
 .scene {
 	width: 200px;
 	height: 200px;
 	perspective: 400px;
 	border: 1px solid #ccc;
-	margin: 80px;
 }
 
 .cube {
