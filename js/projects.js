@@ -15,7 +15,7 @@ let projects = [
 	},
 	{
 		title: "Tic Tac Toe",
-		caption: "A game.<br/><span>You can play.</span>",
+		caption: "A game.",
 		image:
 			"https://res.cloudinary.com/omiq17/image/upload/q_auto/v1501085935/portfolio/screenshot.jpg",
 		link: "http://raqib.me/tictactoe"
