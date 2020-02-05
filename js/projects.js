@@ -15,7 +15,7 @@ let projects = [
 	},
 	{
 		title: "Tic Tac Toe",
-		caption: "A game.",
+		caption: "A game.<br/><span>You can play.</span>",
 		image:
 			"https://res.cloudinary.com/omiq17/image/upload/q_auto/v1501085935/portfolio/screenshot.jpg",
 		link: "http://raqib.me/tictactoe"
@@ -33,7 +33,6 @@ projects.forEach(function(project) {
 	let scene =
 		'<div class="scene">' +
 		'<div class="box 1">' +
-		// '<div class="box 1"    onclick="rotate(this)">' +
 		'<div class="box__face box__face--front">' +
 		"<img " +
 		'alt="' +
