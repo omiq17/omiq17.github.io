@@ -1,8 +1,29 @@
+html {
+	font-size: 16px;
+}
+@media (max-width: 768px) {
+	html {
+		font-size: 14px;
+	}
+}
+@media (max-width: 480px) {
+	html {
+		font-size: 12px;
+	}
+}
 body {
 	font-family: "Sarala", sans-serif;
 	overflow-x: hidden;
+	min-width: 300px;
 }
 
+h1 {
+	font-size: 2.15rem;
+}
+
+h2 {
+	font-size: 1.9rem;
+}
 /*
 	header
 */
@@ -12,7 +33,7 @@ body {
 }
 .navbar-brand {
 	padding: 15px 15px;
-	font-size: 33px;
+	font-size: 2rem;
 }
 .navbar-default {
 	background-color: #eee;
@@ -40,7 +61,7 @@ body {
 	background: none;
 }
 .navbar-nav {
-	font-size: 18px;
+	font-size: 1.15rem;
 	padding-right: 0px;
 }
 
@@ -64,7 +85,7 @@ body {
 	padding-top: 15vh;
 }
 #front h1 {
-	font-size: 29.7px;
+	font-size: 1.75rem;
 	display: inline-block;
 	-webkit-transform: scale(1.9, 1.7); /* Safari and Chrome */
 	-moz-transform: scale(1.9, 1.7); /* Firefox */
@@ -74,11 +95,11 @@ body {
 	line-height: 1.7;
 }
 #front p {
-	font-size: 21.19px;
+	font-size: 1.3rem;
 	margin-bottom: 21px;
 }
 #front span {
-	font-size: 60.1px;
+	font-size: 4.75rem;
 }
 #home {
 	background: url(https://res.cloudinary.com/omiq17/image/upload/q_auto/v1501085935/portfolio/desk_viadd9.jpg)
@@ -116,7 +137,7 @@ body {
 	margin: 5%;
 }
 .about p {
-	font-size: 19.9px;
+	font-size: 1.2rem;
 }
 .about img {
 	border-radius: 35px 5px 35px 15px;
@@ -133,11 +154,11 @@ body {
 	background: #dff0d8;
 }
 #portfolio p {
-	font-size: 17px;
+	font-size: 1rem;
 }
 #portfolio p.type {
 	font-style: italic;
-	font-size: 14px;
+	font-size: 0.8rem;
 }
 /* 3d transform  */
 .showcase {
@@ -254,6 +275,35 @@ body {
 	transform: rotateX(-90deg) translateZ(100px);
 }
 
+@media (max-width: 768px) {
+	.scene {
+		width: 300px;
+		height: 200px;
+		perspective: 400px;
+	}
+	.box {
+		width: 300px;
+		height: 200px;
+	}
+	.box__face--front,
+	.box__face--back {
+		width: 300px;
+		height: 200px;
+	}
+	.box__face--right,
+	.box__face--left {
+		width: 100px;
+		height: 200px;
+		left: 100px;
+	}
+	.box__face--top,
+	.box__face--bottom {
+		width: 300px;
+		height: 100px;
+		top: 50px;
+	}
+}
+
 /*
        Contact
 */
@@ -271,7 +321,7 @@ body {
 }
 #contact p,
 #contact ul li {
-	font-size: 15px;
+	font-size: 0.9rem;
 }
 
 @media (min-width: 768px) {
