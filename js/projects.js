@@ -9,7 +9,7 @@ let projects = [
 	},
 	{
 		title: "Doctors Manga",
-		caption: "Android Mobile App for reading Doctors related comics.",
+		caption: "Android Mobile App for reading Doctors related comics",
 		type: "Professional project, Role: React Native App Developer",
 		image:
 			"https://res.cloudinary.com/omiq17/image/upload/v1581836391/portfolio/doctors_manga.png",
