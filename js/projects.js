@@ -1,15 +1,23 @@
 let projects = [
 	{
 		title: "Wisekeep",
-		caption: "A storage mangament system",
+		caption: "Storage mangament system",
 		type: "Professional project, Role: Frontend Developer",
 		image:
 			"https://res.cloudinary.com/omiq17/image/upload/c_fit,h_500,w_800/v1581828850/portfolio/wisekeep.png",
 		link: "https://wisekeep.hk/"
 	},
 	{
+		title: "Doctors Manga",
+		caption: "Android Mobile App for reading Doctors related comics.",
+		type: "Professional project, Role: React Native App Developer",
+		image:
+			"https://res.cloudinary.com/omiq17/image/upload/v1581836391/portfolio/doctors_manga.png",
+		link: "https://play.google.com/store/apps/details?id=co.jp.doctors_manga"
+	},
+	{
 		title: "Joyoddhoney",
-		caption: "A cultural website",
+		caption: "Cultural website",
 		type: "Personal project",
 		image:
 			"https://res.cloudinary.com/omiq17/image/upload/q_auto/v1501085935/portfolio/Screenshot_from_2017-07-26_22-45-10.jpg",
@@ -17,7 +25,7 @@ let projects = [
 	},
 	{
 		title: "Random Quote Machine",
-		caption: "A quotation generator",
+		caption: "Quotation generator",
 		type: "Personal project",
 		image:
 			"https://res.cloudinary.com/omiq17/image/upload/q_auto/v1501085935/portfolio/Selection_004.jpg",
@@ -25,7 +33,7 @@ let projects = [
 	},
 	{
 		title: "Tic Tac Toe",
-		caption: "A game.",
+		caption: "Paper-and-pencil Game.",
 		type: "Personal project",
 		image:
 			"https://res.cloudinary.com/omiq17/image/upload/q_auto/v1501085935/portfolio/screenshot.jpg",
