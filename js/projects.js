@@ -33,7 +33,7 @@ let projects = [
 	// },
 	{
 		title: "Tic Tac Toe",
-		caption: "Paper-and-pencil Game",
+		caption: "Paper-and-pencil game",
 		type: "Personal project",
 		image:
 			"https://res.cloudinary.com/omiq17/image/upload/q_auto/v1501085935/portfolio/screenshot.jpg",
@@ -41,7 +41,7 @@ let projects = [
 	},
 	{
 		title: "Checkers",
-		caption: "Board Game",
+		caption: "Board game",
 		type: "Personal project",
 		image: "https://res.cloudinary.com/omiq17/image/upload/v1581843617/portfolio/checkers.png",
 		link: "http://raqib.me/checkers/"
