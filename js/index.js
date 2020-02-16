@@ -1,9 +1,4 @@
 $(document).ready(function() {
-	$("html").niceScroll({
-		scrollspeed: 51,
-		mousescrollstep: 45
-	});
-
 	$(function() {
 		$("a.page-scroll").bind("click", function(event) {
 			var $anchor = $(this);
