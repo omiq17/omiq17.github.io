@@ -36,7 +36,6 @@ $(document).ready(function() {
 
 // Rotate the box at 180*
 function rotate(element) {
-	console.log(element);
 	let counter = element.classList[1];
 	let angleValue = 180 * counter;
 	let newCounter = parseInt(counter) + 1;
@@ -45,5 +44,5 @@ function rotate(element) {
 		.removeClass(counter)
 		.addClass(newCounter.toString());
 
-	$(element).css("transform", "translateZ(-100px) rotateY(-" + angleValue + "deg)");
+	$(element).css("transform", "translateZ(-50px) rotateY(-" + angleValue + "deg)");
 }

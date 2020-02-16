@@ -150,7 +150,7 @@ body {
 .scene {
 	width: 400px;
 	height: 250px;
-	perspective: 400px;
+	perspective: 500px;
 	margin: 1%;
 }
 
@@ -209,7 +209,7 @@ body {
 	justify-content: center;
 }
 .box__face--back {
-	background: hsla(0, 15%, 15%, 0.7);
+	background: hsla(0, 15%, 15%, 0.75);
 }
 .box__face--back > a {
 	color: white;
@@ -220,16 +220,16 @@ body {
 }
 
 .box__face--right {
-	background: hsla(185, 100%, 45%, 0.7);
+	background: hsla(185, 100%, 45%, 0.75);
 }
 .box__face--left {
-	background: hsla(185, 100%, 45%, 0.7);
+	background: hsla(185, 100%, 45%, 0.75);
 }
 .box__face--top {
-	background: hsla(185, 100%, 45%, 0.7);
+	background: hsla(185, 100%, 45%, 0.75);
 }
 .box__face--bottom {
-	background: hsla(185, 100%, 45%, 0.7);
+	background: hsla(185, 100%, 45%, 0.75);
 }
 
 /* Transformation */
