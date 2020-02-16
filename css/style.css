@@ -152,6 +152,11 @@ h2 {
 	width: 100%;
 	height: 100%;
 	background: #dff0d8;
+	min-height: 100vh;
+}
+#portfolio > .row {
+	display: flex;
+	justify-content: center;
 }
 #portfolio p {
 	font-size: 1rem;
@@ -160,10 +165,55 @@ h2 {
 	font-style: italic;
 	font-size: 0.8rem;
 }
+/* Loading animation */
+@-webkit-keyframes pulse {
+	50% {
+		background: #555;
+	}
+}
+@keyframes pulse {
+	50% {
+		background: #555;
+	}
+}
+.loading-pulse {
+	position: relative;
+	width: 6px;
+	height: 2.5rem;
+	background: #dff0d8;
+	-webkit-animation: pulse 750ms infinite;
+	animation: pulse 750ms infinite;
+	-webkit-animation-delay: 250ms;
+	animation-delay: 250ms;
+	margin: 25vh 0;
+}
+.loading-pulse:before,
+.loading-pulse:after {
+	content: "";
+	position: absolute;
+	display: block;
+	height: 1.5rem;
+	width: 6px;
+	background: #dff0d8;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	-webkit-animation: pulse 750ms infinite;
+	animation: pulse 750ms infinite;
+}
+.loading-pulse:before {
+	left: -12px;
+}
+.loading-pulse:after {
+	left: 12px;
+	-webkit-animation-delay: 500ms;
+	animation-delay: 500ms;
+}
+
 /* 3d transform  */
 .showcase {
 	padding: 5%;
-	display: flex;
+	display: none;
 	flex-flow: row wrap;
 	justify-content: center;
 }

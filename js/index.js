@@ -1,6 +1,8 @@
-// $(window).on("load", function() {
-// 	console.log("loaded");
-// });
+$(window).on("load", function() {
+	// console.log("loaded all image");
+	$("#portfolio .loading-pulse").hide();
+	$("#portfolio .showcase").css("display", "flex");
+});
 
 $(document).ready(function() {
 	$(function() {
