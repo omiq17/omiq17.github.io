@@ -166,48 +166,54 @@ h2 {
 	font-size: 0.8rem;
 }
 /* Loading animation */
-@-webkit-keyframes pulse {
-	50% {
-		background: #555;
-	}
-}
-@keyframes pulse {
-	50% {
-		background: #555;
-	}
-}
-#portfolio .loading-pulse {
+.spinner {
+	width: 3.5rem;
+	height: 3.5rem;
+
 	position: relative;
-	width: 6px;
-	height: 2.5rem;
-	background: #dff0d8;
-	-webkit-animation: pulse 750ms infinite;
-	animation: pulse 750ms infinite;
-	-webkit-animation-delay: 250ms;
-	animation-delay: 250ms;
-	margin: 25vh 0;
+	margin: 25vh auto;
 }
-#portfolio .loading-pulse:before,
-#portfolio .loading-pulse:after {
-	content: "";
+
+.double-bounce1,
+.double-bounce2 {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-color: #555;
+	opacity: 0.6;
 	position: absolute;
-	display: block;
-	height: 1.5rem;
-	width: 6px;
-	background: #dff0d8;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	transform: translateY(-50%);
-	-webkit-animation: pulse 750ms infinite;
-	animation: pulse 750ms infinite;
+	top: 0;
+	left: 0;
+
+	-webkit-animation: sk-bounce 2s infinite ease-in-out;
+	animation: sk-bounce 2s infinite ease-in-out;
 }
-#portfolio .loading-pulse:before {
-	left: -12px;
+
+.double-bounce2 {
+	-webkit-animation-delay: -1s;
+	animation-delay: -1s;
 }
-#portfolio .loading-pulse:after {
-	left: 12px;
-	-webkit-animation-delay: 500ms;
-	animation-delay: 500ms;
+
+@-webkit-keyframes sk-bounce {
+	0%,
+	100% {
+		-webkit-transform: scale(0);
+	}
+	50% {
+		-webkit-transform: scale(1);
+	}
+}
+
+@keyframes sk-bounce {
+	0%,
+	100% {
+		transform: scale(0);
+		-webkit-transform: scale(0);
+	}
+	50% {
+		transform: scale(1);
+		-webkit-transform: scale(1);
+	}
 }
 
 /* 3d transform  */
