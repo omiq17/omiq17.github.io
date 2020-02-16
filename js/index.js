@@ -1,3 +1,7 @@
+// $(window).on("load", function() {
+// 	console.log("loaded");
+// });
+
 $(document).ready(function() {
 	$(function() {
 		$("a.page-scroll").bind("click", function(event) {

@@ -20,31 +20,37 @@ let projects = [
 		caption: "Cultural website",
 		type: "Personal project",
 		image:
-			"https://res.cloudinary.com/omiq17/image/upload/q_auto/v1501085935/portfolio/Screenshot_from_2017-07-26_22-45-10.jpg",
+			"https://res.cloudinary.com/omiq17/image/upload/v1501087942/portfolio/joyoddhoney.png",
 		link: "http://joyoddhoney.herokuapp.com"
 	},
-	{
-		title: "Random Quote Machine",
-		caption: "Quotation generator",
-		type: "Personal project",
-		image:
-			"https://res.cloudinary.com/omiq17/image/upload/q_auto/v1501085935/portfolio/Selection_004.jpg",
-		link: "https://s.codepen.io/omiq17/full/GZpGRN"
-	},
+	// {
+	// 	title: "Random Quote Machine",
+	// 	caption: "Quotation generator",
+	// 	type: "Personal project",
+	// 	image:
+	// 		"https://res.cloudinary.com/omiq17/image/upload/v1501088115/portfolio/quote-machine.png",
+	// 	link: "https://s.codepen.io/omiq17/full/GZpGRN"
+	// },
 	{
 		title: "Tic Tac Toe",
-		caption: "Paper-and-pencil Game.",
+		caption: "Paper-and-pencil Game",
 		type: "Personal project",
 		image:
 			"https://res.cloudinary.com/omiq17/image/upload/q_auto/v1501085935/portfolio/screenshot.jpg",
 		link: "http://raqib.me/tictactoe"
 	},
 	{
+		title: "Checkers",
+		caption: "Board Game",
+		type: "Personal project",
+		image: "https://res.cloudinary.com/omiq17/image/upload/v1581843617/portfolio/checkers.png",
+		link: "http://raqib.me/checkers/"
+	},
+	{
 		title: "Tribute To Tareque Masud",
 		caption: "A tribute page for Tareque Masud",
 		type: "Personal project",
-		image:
-			"https://res.cloudinary.com/omiq17/image/upload/q_auto/v1501085935/portfolio/Selection_006.jpg",
+		image: "https://res.cloudinary.com/omiq17/image/upload/v1501088129/portfolio/tribute.png",
 		link: "https://s.codepen.io/omiq17/full/JGVyQz"
 	}
 ];
