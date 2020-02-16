@@ -1,14 +1,24 @@
 let projects = [
 	{
+		title: "Wisekeep",
+		caption: "A storage mangament system",
+		type: "Professional project, Role: Frontend Developer",
+		image:
+			"https://res.cloudinary.com/omiq17/image/upload/c_fit,h_500,w_800/v1581828850/portfolio/wisekeep.png",
+		link: "https://wisekeep.hk/"
+	},
+	{
 		title: "Joyoddhoney",
-		caption: "A cultural website.",
+		caption: "A cultural website",
+		type: "Personal project",
 		image:
 			"https://res.cloudinary.com/omiq17/image/upload/q_auto/v1501085935/portfolio/Screenshot_from_2017-07-26_22-45-10.jpg",
 		link: "http://joyoddhoney.herokuapp.com"
 	},
 	{
 		title: "Random Quote Machine",
-		caption: "A quotation generator.",
+		caption: "A quotation generator",
+		type: "Personal project",
 		image:
 			"https://res.cloudinary.com/omiq17/image/upload/q_auto/v1501085935/portfolio/Selection_004.jpg",
 		link: "https://s.codepen.io/omiq17/full/GZpGRN"
@@ -16,13 +26,15 @@ let projects = [
 	{
 		title: "Tic Tac Toe",
 		caption: "A game.",
+		type: "Personal project",
 		image:
 			"https://res.cloudinary.com/omiq17/image/upload/q_auto/v1501085935/portfolio/screenshot.jpg",
 		link: "http://raqib.me/tictactoe"
 	},
 	{
 		title: "Tribute To Tareque Masud",
-		caption: "A tribute page for Tareque Masud.",
+		caption: "A tribute page for Tareque Masud",
+		type: "Personal project",
 		image:
 			"https://res.cloudinary.com/omiq17/image/upload/q_auto/v1501085935/portfolio/Selection_006.jpg",
 		link: "https://s.codepen.io/omiq17/full/JGVyQz"
@@ -50,6 +62,9 @@ projects.forEach(function(project) {
 		"</h2>" +
 		"<p>" +
 		project.caption +
+		"</p>" +
+		'<p class="type">' +
+		project.type +
 		"</p>" +
 		'<a href="' +
 		project.link +
