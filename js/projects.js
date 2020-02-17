@@ -2,7 +2,7 @@ let projects = [
 	{
 		title: "Wisekeep",
 		caption: "Storage mangament system",
-		type: "Professional project, Role: Frontend Developer",
+		type: "Professional project, role: Frontend Developer",
 		image:
 			"https://res.cloudinary.com/omiq17/image/upload/c_fit,h_500,w_800/v1581828850/portfolio/wisekeep.png",
 		link: "https://wisekeep.hk/"
@@ -10,7 +10,7 @@ let projects = [
 	{
 		title: "Doctors Manga",
 		caption: "Android Mobile App for reading Doctors related comics",
-		type: "Professional project, Role: React Native App Developer",
+		type: "Professional project, role: React Native App Developer",
 		image:
 			"https://res.cloudinary.com/omiq17/image/upload/v1581836391/portfolio/doctors_manga.png",
 		link: "https://play.google.com/store/apps/details?id=co.jp.doctors_manga"

@@ -298,16 +298,16 @@ h2 {
 }
 
 .box__face--right {
-	background: hsla(185, 100%, 45%, 0.75);
+	background: hsla(0, 15%, 15%, 0.5);
 }
 .box__face--left {
-	background: hsla(185, 100%, 45%, 0.75);
+	background: hsla(0, 15%, 15%, 0.5);
 }
 .box__face--top {
-	background: hsla(185, 100%, 45%, 0.75);
+	background: hsla(0, 15%, 15%, 0.5);
 }
 .box__face--bottom {
-	background: hsla(185, 100%, 45%, 0.75);
+	background: hsla(0, 15%, 15%, 0.5);
 }
 
 /* Transformation */
