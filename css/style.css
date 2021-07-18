@@ -159,6 +159,9 @@ h2 {
   display: flex;
   justify-content: center;
 }
+#portfolio .image {
+  object-fit: cover;
+}
 #portfolio p {
   font-size: 1rem;
 }
