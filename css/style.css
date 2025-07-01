@@ -139,10 +139,13 @@ h2 {
 .about p {
   font-size: 1.2rem;
 }
+.about p.intro {
+  text-align: justify;
+}
 .about img {
   display: inline-block;
-  height: 17vh;
-  border-radius: 7px;
+  height: 25vh;
+  border-radius: 2vh;
   margin-bottom: 1vh;
 }
 /*
